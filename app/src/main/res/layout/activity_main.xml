@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        tools:context=".MainActivity">
+
+    <Button
+            android:text="@string/showtoast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnshowtoast"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="95dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/enter_your_message"
+            android:ems="10"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/userMessage"
+            android:layout_marginTop="221dp"/>
+    <Button
+            android:text="@string/send_data_to_next_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/btnSendDataToNextActivity"
+            android:layout_marginTop="334dp"/>
+    <Button
+            android:text="@string/share_to_other_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="110dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btnShare"
+            android:layout_marginBottom="262dp"/>
+    <Button
+            android:layout_marginTop="500dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/recycler_view_demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRecyclerview"/>
+</RelativeLayout>

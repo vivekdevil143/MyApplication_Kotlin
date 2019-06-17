@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mon application</string>
+    <string name="showtoast">Montrer le pain grillé</string>
+    <string name="enter_your_message">Entrez un message</string>
+    <string name="send_data_to_next_activity">Passer à la prochaine activité</string>
+    <string name="share_to_other_app">Partage vers dautres applications</string>
+    <string name="recycler_view_demo">Recycler View Demo</string>
+    <string name="btn_clicked">Le bouton est cliqué</string>
+</resources>
+
+
+
